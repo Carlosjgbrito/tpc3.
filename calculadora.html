@@ -1,0 +1,41 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css" /> <!-- Importar arquivo de estilo CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" /> <!-- Pré-conectar com o serviço de fontes do Google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> <!-- Pré-conectar com o serviço de fontes do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" /> <!-- Importar a fonte Roboto do Google Fonts -->
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="output">
+        <div data-previous-operand class="previous-operand"></div> <!-- Elemento para exibir o operando anterior -->
+        <div data-current-operand class="current-operand"></div> <!-- Elemento para exibir o operando atual -->
+      </div>
+      <button data-all-clear class="span-two">AC</button> <!-- Botão para limpar tudo -->
+      <button data-delete>DEL</button> <!-- Botão para excluir um caractere -->
+      <button data-operator class="operator">÷</button> <!-- Botão para o operador de divisão -->
+      <button data-number>1</button> <!-- Botão para o número 1 -->
+      <button data-number>2</button> <!-- Botão para o número 2 -->
+      <button data-number>3</button> <!-- Botão para o número 3 -->
+      <button data-operator class="operator">*</button> <!-- Botão para o operador de multiplicação -->
+      <button data-number>4</button> <!-- Botão para o número 4 -->
+      <button data-number>5</button> <!-- Botão para o número 5 -->
+      <button data-number>6</button> <!-- Botão para o número 6 -->
+      <button data-operator class="operator">+</button> <!-- Botão para o operador de adição -->
+      <button data-number>7</button> <!-- Botão para o número 7 -->
+      <button data-number>8</button> <!-- Botão para o número 8 -->
+      <button data-number>9</button> <!-- Botão para o número 9 -->
+      <button data-operator class="operator">-</button> <!-- Botão para o operador de subtração -->
+      <button data-number class="span-two">.</button> <!-- Botão para o ponto decimal -->
+      <button data-number>0</button> <!-- Botão para o número 0 -->
+      <button data-equals class="operator">=</button> <!-- Botão para o operador de igualdade -->
+    </div>
+    <script src="scripts.js"></script> <!-- Importar arquivo de script JavaScript -->
+  </body>
+</html>
